@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #32d167;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="197.0" style="-fx-background-color: #8c34eb;">
+         <children>
+            <VBox layoutY="124.0" prefHeight="276.0" prefWidth="197.0" style="-fx-background-color: #c4abc4;">
+               <children>
+                  <Button alignment="BOTTOM_LEFT" mnemonicParsing="false" prefHeight="40.0" prefWidth="206.0" style="-fx-background-color: #fff; -fx-background-radius: 30 0 0 30;" text="FnameLname" textFill="#dd2828">
+                     <graphic>
+                        <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" />
+                     </graphic></Button>
+                  <Button alignment="BOTTOM_LEFT" mnemonicParsing="false" prefHeight="40.0" prefWidth="206.0" style="-fx-background-color: #fff; -fx-background-radius: 30 0 0 30;" text="FnameLname" textFill="#dd2828">
+                     <graphic>
+                        <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" />
+                     </graphic>
+                  </Button>
+                  <Button alignment="BOTTOM_LEFT" mnemonicParsing="false" prefHeight="40.0" prefWidth="206.0" style="-fx-background-color: #fff; -fx-background-radius: 30 0 0 30;" text="FnameLname" textFill="#dd2828">
+                     <graphic>
+                        <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" />
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
