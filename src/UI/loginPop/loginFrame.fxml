@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="289.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.loginPop.LoginFrameController">
+   <children>
+      <Button fx:id="login_login_button" layoutX="176.0" layoutY="181.0" mnemonicParsing="false" onAction="#loginButtonClicked" text="login" />
+      <ComboBox layoutX="70.0" layoutY="85.0" prefHeight="25.0" prefWidth="149.0" promptText="select a user" />
+      <TextField layoutX="68.0" layoutY="123.0" prefHeight="25.0" prefWidth="149.0" promptText="access code" />
+      <Label layoutX="70.0" layoutY="40.0" text="Fridge Management System" />
+   </children>
+</AnchorPane>
