@@ -1,5 +1,6 @@
 package Data;
 
+//this file have the constant that use a lot
 public class Constants {
     public static String MASTER = "MASTER";
 

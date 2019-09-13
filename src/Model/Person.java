@@ -29,7 +29,6 @@ public class Person {
     public String getLevel() {
         return level;
     }
-
     public void setLevel(String level) {
         this.level = level;
     }
@@ -37,7 +36,6 @@ public class Person {
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -45,7 +43,6 @@ public class Person {
     public String getEmail() {
         return email;
     }
-
     public void setEmail(String email) {
         this.email = email;
     }
@@ -53,8 +50,8 @@ public class Person {
     public String getPhoneNum() {
         return phoneNum;
     }
-
     public void setPhoneNum(String phoneNum) {
         this.phoneNum = phoneNum;
     }
+
 }

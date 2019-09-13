@@ -1,5 +1,6 @@
 package UI.loginPop;
 
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
@@ -10,22 +11,27 @@ import java.util.ResourceBundle;
 
 public class LoginFrameController implements Initializable {
 
-    public ComboBox<String> login_selectUser_combo;
-    public static TextField login_useraccess_input;
-    public static Button login_login_button;
-
+    @FXML
+    private ComboBox<String> combo;
+    @FXML
+    private TextField input;
+    @FXML
+    private Button button;
 
 
     public void loginButtonClicked(){
+        String userName = combo.getValue();
+        String userCode = input.getText();
 
-        String userName = login_selectUser_combo.getValue();
-        String userCode = login_useraccess_input.getText();
-        System.out.println("login button clicked");
+        //todo: check if the user code valid
+        System.out.println("clicked, user: " + userName + " code: "+ userCode);
     }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        login_selectUser_combo = new ComboBox<String>();
-        login_selectUser_combo.getItems().addAll("user1","user2","user3");
+        System.out.println("login frame initialized");
+
+        //todo: add all the user name exist in database
+        combo.getItems().addAll("Ken","Zhao","Jiahua");
     }
 }

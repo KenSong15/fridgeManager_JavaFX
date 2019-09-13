@@ -11,7 +11,7 @@ public class Fridge {
         drinkArrayList = new ArrayList<Drink>();
     }
 
-    //todo: put in food or drink
+    //put in food or drink
     public void putin(Food afood){
         foodArrayList.add(afood);
     }
@@ -20,7 +20,7 @@ public class Fridge {
         drinkArrayList.add(adrink);
     }
 
-    //todo: take out food or drink
+    //take out food or drink
     public void takeout(String namestr) {
         int foodLen = foodArrayList.size();
         int drinkLen = drinkArrayList.size();
@@ -31,14 +31,12 @@ public class Fridge {
                 return;
             }
         }
-
         for(int i = 0; i < drinkLen; i++){
             if(this.drinkArrayList.get(i).getName().equals(namestr)) {
                 this.drinkArrayList.remove(i);
                 return;
             }
         }
-
         System.out.println("Given name not found in inventory, plz check");
         return;
     }

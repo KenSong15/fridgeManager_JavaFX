@@ -1,15 +1,15 @@
 package Model;
 
-import java.util.Date;
+import java.util.Calendar;
 
 public class Drink {
     private String name;
-    private Date inDate;
-    private Date bestBefore;
+    private Calendar inDate;
+    private Calendar bestBefore;
 
     private Person owner;
 
-    public Drink(String name, Date inDate, Date bestBefore, Person owner) {
+    public Drink(String name, Calendar inDate, Calendar bestBefore, Person owner) {
         this.name = name;
         this.inDate = inDate;
         this.bestBefore = bestBefore;
@@ -20,11 +20,11 @@ public class Drink {
         return name;
     }
 
-    public Date getInDate() {
+    public Calendar getInDate() {
         return inDate;
     }
 
-    public Date getBestBefore() {
+    public Calendar getBestBefore() {
         return bestBefore;
     }
 
